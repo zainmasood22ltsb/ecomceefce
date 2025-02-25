@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  background-color: rgb(1, 88, 17);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 30px 4px gray;
+  padding-inline: 25px;
+}
+
+.navbar a {
+  color: white;
+  margin: 10px;
+  transition: 1.1s;
+}
+
+.navbar a:hover {
+  box-shadow: 0px 0px 20px black;
+  padding: 8px;
+  border-radius: 8px;
+  transition: 1.1s;
+}
+
+.item_display {
+  margin-top: 50px;
+  margin-inline: 35px;
+  border: 1px solid black;
+  min-height: 50vh;
+}
+
+.itemsmain-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid rgb(98, 96, 96);
+  padding-bottom: 10px;
+}
+
+.itemsmain-flex img {
+  width: 150px;
+  height: 150px;
+}
+
+.cart-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cart-btn button {
+  padding: 11px 30px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(rgb(69, 207, 69), rgb(85, 0, 128));
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+/* New Card Styles */
+.card {
+  width: 300px; /* Increased width for better visibility */
+  padding: 20px;
+  background-color: rgb(248, 245, 245);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card img {
+  width: 100%; /* Make image responsive */
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.card-description {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: rgb(46, 26, 176);
+  border-radius: 9px;
+  border: none;
+  margin-top: 10px;
+}
+
+.card button:hover {
+  background-color: rgb(107, 188, 2);
+}
